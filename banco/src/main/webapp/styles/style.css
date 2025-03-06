@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: content-box;
+}
+body{
+	background-color: black;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: arial;
+}
+.box-content{
+	height: 120px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	border-radius: 9px;
+}
+.box-text{
+  margin-bottom: 40px;
+}
+.box-buttons{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+}
+
+.button1{
+	height: 25px;
+	width: fit-content;
+	border: 0;
+	border-radius: 3px;
+  	background-color: lightgreen;
+  	cursor: pointer;
+  	text-decoration: none;
+}
+.button2{
+	height: 25px;
+	width: fit-content;
+	border: 0;
+	border-radius: 3px;
+ 	background-color: cyan;
+ 	cursor: pointer;
+  	text-decoration: none;
+}
+.box-inputs{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding: 10px
+}
+.box-inputs input{
+	width: 200px
+}
+.Caixa1{
+	height: 25px;
+	border: 0;
+	border-radius: 3px;
+  	background-color: lightgreen;
+  	cursor: pointer;
+  	text-decoration: none;
+}
+.Caixa2{
+	width: 60px;
+	border: none;
+	border-radius: 3px;
+  	text-decoration: none;
+}
+.erro{
+    color: black;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ff0000;
+    border-radius: 4px;
+}
+.box-content-main{
+	height: 140px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	border-radius: 9px;
+	font-size: 18px;
+	gap: 10px;
+}
+.informacao{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}
